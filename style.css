@@ -1,0 +1,271 @@
+html {
+	background: -webkit-linear-gradient(top, #7A7979, #171717)
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	font-size: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1280px;
+	height: 1653px;
+	margin: auto;
+}
+
+header {
+	height: 142px;
+	background: -webkit-linear-gradient(top, #555, #000);
+}
+
+.login {
+	margin: 0;
+	margin-top: 42px;
+	margin-right: 45px;
+	font-size: 14px;
+	color: #CCCACA;
+	float: right;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+	margin-left: 45px;
+	margin-top: 21px;
+	float: left;
+}
+
+.nav_header {
+	width: 785px;
+	height: 142px;
+	padding-top: 91px;
+	padding-left: 147px;
+	display: inline;
+	float: left;
+}
+
+.nav_header ul {
+	list-style: none;
+	padding: 0;
+}
+
+.nav_header li {
+	margin-right: 47px;
+	display: inline;
+}
+
+.font_title {
+	font-size: 24px;
+	color: #EAEAEA;
+}
+
+.search_bar {
+	background-color: #666363;
+	margin-top: 11px;
+	margin-right: 45px;
+	width: 305px;
+	height: 50px;
+	float: left;
+}
+
+.search_icon {
+	width: 30px;
+	height: 30px;
+	margin-top: 12px;
+	margin-left: 15px;
+	float: left;
+}
+
+.search_text {
+	font-size: 26px;
+	color: black;
+	text-align: center;
+	width: 215px;
+	height: 100%;
+	display: inline;
+	float: left;
+	line-height: 50px;
+}
+
+.main_img {
+	background-image: url('images/main_img.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 576px;
+}
+
+.main_img_title {
+	padding-top: 65px;
+	margin: 0;
+	margin-left: 45px;
+	font-size: 48px;
+	color: #FD3400;
+	font-family: "Futura-CondensedExtraBold";
+}
+
+.main_img_description {
+	width: 305px;
+	min-height: 100px;
+	position: relative;
+	margin: 0;
+	margin-top: 30px;
+	margin-left: 45px;
+}
+
+.main_img_description_blur {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(50, 50, 50, 0.66);
+	background-size: cover;
+	-webkit-filter: blur(50px);
+	position: absolute;
+}
+
+.main_img_description_text {
+	font-family: "Futura-Medium";
+	font-size: 16px;
+	color: white;
+	min-height: 100px;
+	line-height: 25px;
+	position: absolute;
+}
+
+.sub_img {
+	height: 391px;
+	position: relative;
+}
+
+.sub_imag_blur {
+	background-color: rgba(118, 114, 114, 0.35);
+	background-size: cover;
+	-webkit-filter: blur(50px);
+	position: absolute;
+}
+
+.sub_img1 {
+	margin-top: 30px;
+	margin-left: 49px;
+	width: 611px;
+	height: 363px;
+	float: left;
+	position: absolute;
+}
+
+.sub_img2 {
+	margin-top: 30px;
+	margin-left: 25px;
+	width: 548px;
+	height: 188px;
+	float: left;
+	position: absolute;
+	right: 46px;
+}
+
+.sub_img3 {
+	margin-top: 25px;
+	margin-left: 25px;
+	width: 548px;
+	height: 150px;
+	float: right;
+	position: absolute;
+	right: 46px;
+	top: 218px;
+
+}
+
+.models {
+	width: 1187px;
+	margin-top: 30px;
+	margin-left: 47px;
+}
+
+.models_title {
+	background-color: #131313;
+	height: 75px;
+	color: #777;
+	font-size: 36px;
+	text-align: center;
+	line-height: 75px;
+
+}
+
+.models_list {
+	border: 1px solid;
+	-webkit-border-image: -webkit-linear-gradient(top, #434141 100%, #8E8D8D 100%);
+	border-image: linear-gradient(to bottom, #434141 100%, #8E8D8D 100%);
+	border-image-slice: 1;
+	height: 335px;
+	padding-top: 28px;
+	padding-left: 65px;
+	padding-bottom: 35px;
+}
+
+.models_list_ul {
+	list-style: none;
+	float: left;
+	padding: 0;
+	margin-right: 75px;
+}
+
+.models_list_ul_last {
+	margin-right: 0;
+}
+
+.models_list_ul li {
+	font-family: "Copperplate";
+	font-weight: 100;
+	font-size: 18px;
+	color: white;
+	margin-left: 14px;
+	margin-top: 30px;
+}
+
+.models_list_category {
+	font-weight: bold !important;
+	font-size: 30px !important;
+	margin: 0 !important;
+	color: #D0D0D0 !important;
+}
+
+footer {
+	height: 75px;
+	margin-top: 32px;
+	background-color: #282828;
+}
+
+.copyrights {
+	font-family: "Helvetica-Bold";
+	font-size: 12px;
+	color: white;
+	margin-left: 110px;
+	line-height: 75px;
+	float: left;
+}
+
+.shares {
+	margin-right: 110px;
+	display: inline;
+	height: 100%;
+	float: right;
+	line-height: 75px;
+	padding-top: 20px;
+}
+
+.share_icon {
+	height: 36px;
+	width: 36px;
+	margin-left: 15px;
+}
+
+.img_shadow {
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.Krungthep_font {
+	font-family: "Krungthep";
+}
